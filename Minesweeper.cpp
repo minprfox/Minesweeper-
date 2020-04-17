@@ -149,16 +149,16 @@ int main(){
                 dir = getch();
                 switch(dir){
                     case 75:    
-						gx -= 4;
+			gx -= 4;
                         break;
                     case 77:     
-						gx += 4;
+			gx += 4;
                         break;
                     case 72:    
-						gy--;
+			gy--;
                         break;
                     case 80:    
-						gy++;
+			gy++;
                         break;
                 }
     		}
